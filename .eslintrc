@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "linebreak-style": 0,
+    "no-shadow": 0,
+    "no-param-reassign": 0,
+    "no-else-return": 0,
+    "no-debugger": 0,
+    "no-trailing-spaces": 0,
+    "no-lonely-if": 0,
+    "no-alert": 0
+  },
+  "extends": "airbnb-base/legacy"
+}
