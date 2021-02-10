@@ -7,8 +7,6 @@ export async function data() {
     fetch('https://disease.sh/v3/covid-19/historical').then((res) => res.json())
   ]);
 
-  console.log(GET_COUNTRIES);
-
   const filterArr = [];
   const filterCountry = [];
   for (let i = 0; i < GET_COUNTRIES[4].length; i += 1) {
